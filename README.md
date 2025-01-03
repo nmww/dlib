@@ -2,6 +2,20 @@
 
 This repository contains the compiled binary (.whl) files for the [Dlib](http://dlib.net/) library to install on Python versions 3.7, 3.8, 3.9, 3.10, 3.11, and 3.12 on a Windows x64 OS. 
 
+解决了windows环境下，python编程实现人脸关键点检测，使用dlib包的问题
+import dlib 
+
+*
+```python
+python -m pip install --upgrade pip
+pip install cmake==3.25.2
+```
+
+* 
+```python
+pip install cmake==3.25.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ## 📢 New Update:
 * May 08, 2024: Added compiled binary file (.whl) for Python 3.12!
 
